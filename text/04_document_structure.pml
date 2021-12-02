@@ -1,4 +1,4 @@
-[ch [title Document Structure]
+[ch (id=structure) [title Document Structure]
 
     A [i PDML document] is a tree of nodes.
 
@@ -8,16 +8,18 @@
         "[" name ( separator ? child_node + ) ? "]"
     code]
 
-    [ch [title Node]
+    [ch (id=node) [title Node]
 
         A [i node] is enclosed by a pair of square brackets: [c \[...\]]. A node starts with [c \[] and ends with [c \]].
 
         Each document has one root node.
     ]
 
-    [ch [title Name]
+    [ch (id=node_name) [title Name]
 
-        Each node has a [i name]. A node name must match the regex [c \[a-zA-Z_\]\[a-zA-Z1-9_-\\.\]*]. This means that a name starts with a letter or an underscore ([c _]), optionally followed by any number of letters, digits, underscores ([c _]), hyphens ([c -]), or dots ([c .]).
+        Each node has a [i name].
+        
+        A node name must match the regex [c \[a-zA-Z_\]\[a-zA-Z1-9_\\.-\]*]. This means that a name starts with a letter or an underscore ([c _]), optionally followed by any number of letters, digits, underscores ([c _]), hyphens ([c -]), or dots ([c .]).
 
         Here are some examples of valid node names:
         [code
@@ -29,9 +31,11 @@
         A node name does not need to be unique. Different nodes in a tree can have the same name.
     ]
 
-    [ch [title Separator]
+    [ch (id=node_separator) [title Separator]
 
-        The [i separator] is a single whitespace character. The following whitespace characters are allowed:
+        The [i separator] separates the node's name from its content.
+        
+        The separator is a single whitespace character. The following whitespace characters are allowed:
         [table_data
             Name, C-style syntax, Unicode
             -
@@ -56,7 +60,7 @@
         code]
     ]
 
-    [ch [title Child Node]
+    [ch (id=child_node) [title Child Node]
 
         A node can optionally have any number of child nodes.
 
@@ -102,7 +106,7 @@
         ]
     ]
 
-    [ch [title Empty Node]
+    [ch (id=empty_node) [title Empty Node]
 
         If a node has no child nodes, it is called an [i empty node].
 

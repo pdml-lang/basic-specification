@@ -1,8 +1,18 @@
-[ch [title Whitespace]
+[ch (id=whitespace) [title Whitespace]
 
-    There are no whitespace handling rules defined in basic PDML.
+    The following whitespace characters before of after the root node are ignored:
+    [table_data
+        Name, C-style syntax, Unicode
+        -
+        Space, ' ', U+0020
+        Tab, '\t', U+0009
+        Carriage return, '\r', U+000D
+        Line feed, '\n', U+000A
+    table_data]
 
-    Whitespace is preserved when a PDML document is parsed.
+    Other characters before or after the root node are illegal.
+
+    Within a PDML document, there are no whitespace handling rules defined in basic PDML. Whitespace is preserved when a PDML document is parsed.
 
     Consider the following PDML snippet:
     [code

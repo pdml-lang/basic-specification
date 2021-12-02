@@ -1,4 +1,4 @@
-[ch [title New Lines]
+[ch (id=new_lines) [title New Lines]
 
     New lines are defined differently in Unix/Linux and Windows. Unix uses a single [i line feed] ([c "\\n"]). Windows uses a [i carriage return], followed by a [i line feed] ([c "\\r\\n"]).
 

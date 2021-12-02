@@ -1,8 +1,8 @@
-[ch [title Source Code]
+[ch (id=source_code) [title Markup Code]
 
     This document is written in [link url=https://www.pml-lang.dev/ text=PML] and uses the PDML syntax.
 
-    The source code is available on [link url=https://pdml-lang.github.io/TODO/ text=Github].
+    The markup code is available on [link url=https://github.com/pdml-lang/basic-specification/ text=Github].
 
     Pull requests are welcome.
 ]

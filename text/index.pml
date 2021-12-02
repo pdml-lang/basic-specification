@@ -1,8 +1,12 @@
 [doc [title Basic PDML Specification]
 
-    Author: Christian Neumanns
-
-    Published: 2021-10-27
+    [table
+        [tr [tc [b Version]][tc 1.0.0]]
+        [tr [tc [b Published]][tc 2021-12-02]]
+        [tr [tc [b License]][tc [link url=https://creativecommons.org/licenses/by-sa/4.0/ text="CC BY-SA 4.0"]]]
+        [tr [tc [b Website]][tc [link url=https://pdml-lang.github.io/ text="https://pdml-lang.github.io/"]]]
+        [tr [tc [b Author]][tc Christian Neumanns]]
+    ]
 
     [!set pdml_website_url=https://pdml-lang.github.io/]
     [!set pdml_docs_url=[!get pdml_website_url]docs/]
