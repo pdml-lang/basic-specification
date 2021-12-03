@@ -7,7 +7,7 @@
     ]
 
     [note
-        This document is the only official specification for [i basic PDML].
+        This document is the only official specification for [i Basic PDML].
         
         The EBNF grammar and the railroad diagrams are just auxiliary assets to help readers better contextualize the specification.
     ]

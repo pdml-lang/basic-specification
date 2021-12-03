@@ -12,7 +12,7 @@
 
     Other characters before or after the root node are illegal.
 
-    Within a PDML document, there are no whitespace handling rules defined in basic PDML. Whitespace is preserved when a PDML document is parsed.
+    Within a PDML document, there are no whitespace handling rules defined in [i Basic PDML]. Whitespace is preserved when a PDML document is parsed.
 
     Consider the following PDML snippet:
     [code
