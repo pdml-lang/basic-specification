@@ -12,7 +12,7 @@
 
         A [i node] is enclosed by a pair of square brackets: [c \[...\]]. A node starts with [c \[] and ends with [c \]].
 
-        Each document has one root node.
+        Each document has exactly one root node.
     ]
 
     [ch (id=node_name) [title Name]
